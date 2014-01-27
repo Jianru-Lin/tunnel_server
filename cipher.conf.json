@@ -1,0 +1,8 @@
+{
+	"type": "cipher",
+	"key": "35d98678b7991c46f632534c7e81d9ba",
+	"addr": "127.0.0.1",
+	"port": 8888,
+	"server_addr": "127.0.0.1",
+	"server_port": "30000"
+}
