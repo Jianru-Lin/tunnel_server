@@ -68,7 +68,7 @@ function init() {
 	});
 
 	fileList.forEach(function(file) {
-		var m = require(file);
+		var m = require('./' + file);
 		if (m.name) {
 			global[m.name] = m;
 			//console.log('success: ' + file);
