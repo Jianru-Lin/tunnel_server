@@ -10,7 +10,7 @@ var server;
 function start_server(event_hook) {
 	server = net.createServer();
 	
-	server.on('connection', function(socket) {debugger;
+	server.on('connection', function(socket) {
 		if (!event_hook.connection) return;
 		event_hook.connection(socket);
 	});

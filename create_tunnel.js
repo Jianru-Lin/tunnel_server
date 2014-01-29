@@ -3,8 +3,6 @@ exports = module.exports = create_tunnel;
 // [模块]
 var net = require('net');
 
-exports = module.exports = create_tunnel;
-
 // [变量]
 var tunnel_list = [];
 
